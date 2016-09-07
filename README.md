@@ -26,12 +26,16 @@ npm install --save template-regexp
 
 ### usage
 
-```
+```javascript
 import r from 'template-regexp';
 
-r`foo(bar)` => /foo(bar)/
-r`foo(bar)`.g => /foo(bar)/g
-r`foo${'(bar)'}`.g => /foo\(bar\)/g
-r`foo(${'(bar)'})`.g => /foo(\(bar\))/g
-r`foo(${'(bar)'})`.g.i.m.u.y => /foo(\(bar\))/gimuy
+r`foo(bar)` // => /foo(bar)/
+
+r`foo(bar)`.g // => /foo(bar)/g
+
+r`foo${'(bar)'}`.g // => /foo\(bar\)/g
+
+r`foo(${'(bar)'})`.g // => /foo(\(bar\))/g
+
+r`foo(${'(bar)'})`.g.i.m.u.y // => /foo(\(bar\))/gimuy
 ```
