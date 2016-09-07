@@ -1,4 +1,4 @@
-# template-regexp [![Build Status](https://travis-ci.org/icodeforlove/template-regexp.png?branch=master)](https://travis-ci.org/icodeforlove/template-colors)
+# template-regexp [![Build Status](https://travis-ci.org/icodeforlove/template-regexp.png?branch=master)](https://travis-ci.org/icodeforlove/template-regexp)
 
 regular expressions inside of template literals
 
