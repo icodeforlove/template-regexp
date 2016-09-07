@@ -1,8 +1,10 @@
 {
   "name": "template-regexp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "regular expressions inside of template literals",
   "main": "dist/index.js",
+  "engines" : { "node" : ">=6.0" },
+  "engineStrict" : true,
   "scripts": {
     "test": "npm run build; ./node_modules/.bin/babel ./spec/ --out-dir ./.spec/; ./node_modules/.bin/jasmine-node ./.spec/*",
     "build": "./node_modules/.bin/babel ./src/ --out-dir ./dist/;"
